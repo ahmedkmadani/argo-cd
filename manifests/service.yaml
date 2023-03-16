@@ -12,6 +12,6 @@ spec:
     tag: alpine
   type:  NodePort
   ports:
-  - port:  8111
-    targetPort:  8111
+  - port:  80
+    targetPort:  80
     protocol: TCP
